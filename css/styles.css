@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+body {
+  align-items: center;
+  background-color: #3ab0ff;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  justify-content: center;
+  line-height: 1.4;
+  padding: 3em 0;
+}
+
+.container {
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  color: #3ab0ff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 500px;
+  padding: 1.5em;
+  width: 90%;
+}
+
+.show-guess {
+  background-color: #3ab0ff;
+  border-radius: 40px;
+  box-shadow: 20px 20px 60px #489dcf, -20px -20px 60px #62d5ff;
+  color: white;
+  font-size: 3.5em;
+  font-weight: bold;
+  padding: 1.25em;
+}
+
+.response {
+  border-radius: 30px;
+  font-size: 1.25em;
+  line-height: 1.8;
+  text-align: center;
+  width: 70%;
+}
